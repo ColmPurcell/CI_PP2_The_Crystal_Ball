@@ -29,8 +29,13 @@ function response() {
 var number = Math.floor(Math.random()*20);
 
 document.getElementById("response").innerHTML = list[number];
+document.getElementById("userinput").value = "";
 }
 
+/**
+ * Function to switch between
+ * light and dark modes
+ */
 function toggleMode() {
     let element = document.body;
     element.classList.toggle("dark-mode");
