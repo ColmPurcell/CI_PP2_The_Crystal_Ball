@@ -3,6 +3,7 @@
  * when the user hits the submit button
  */
 function response() {
+    alert("Remember don't base important life decisions on these answers, this is just for fun!");
     var list = [
         "100% Yes",
         "The odds are in your favour!",
@@ -26,5 +27,6 @@ function response() {
         "Computer says no",
     ];
 var number = Math.floor(Math.random()*20);
+
 document.getElementById("response").innerHTML = list[number];
 }
