@@ -4,6 +4,15 @@ body {
     text-align: center;
 }
 
+#response {
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 .fortune-image {
     width: 50%;
     height: 50%;
