@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <!-- font awesome and google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/07e5d5c5ba.js" crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Crystal Ball</title>
 </head>
+
 <body>
     <!-- heading -->
     <h1 class="heading">
@@ -20,12 +22,21 @@
 
     <!-- main image -->
     <div class="main-image">
-        <img class="fortune-image" src="assets/images/Crystal-ball.webp" alt="An image of a fortune teller at a table with candles, tarot cards and a crystal ball">
+        <img class="fortune-image" src="assets/images/Crystal-ball.webp"
+            alt="An image of a fortune teller at a table with candles, tarot cards and a crystal ball">
     </div>
+
+    <!-- Question and response section -->
+    <p>Ask the Crystal Ball a question with a possibility of a yes/no answer to find out what the future holds in store!</p>
+    <input id="userinput" type="input" />
+    <input id="button" type="button" value="submit" onclick="response()" />
+    <p id="response"></p>
+
 
 
 
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
