@@ -30,6 +30,7 @@ var number = Math.floor(Math.random()*20);
 
 document.getElementById("response").innerHTML = list[number];
 document.getElementById("userinput").value = "";
+console.log(number);
 }
 
 /**
