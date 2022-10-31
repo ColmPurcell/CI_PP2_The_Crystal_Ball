@@ -12,6 +12,13 @@ p {
     font-size: xx-large;
 }
 
+#userinput {
+    width: 40%;
+    height: 40px;
+    font-size: x-large;
+    font-family: "Rajdhani", sans-serif;
+}
+
 #response {
     color: black;
 }
