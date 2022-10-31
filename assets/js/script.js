@@ -3,6 +3,11 @@
  * when the user hits the submit button
  */
 function response() {
+    if (document.getElementById("userinput").value == "") {
+        alert("I'm a fortune teller not a mind reader, please enter a question!");
+        document.getElementById("response").innerHTML = list["20"];
+    } else {
+    }
     alert("Remember don't base important life decisions on these answers, this is just for fun!");
     var list = [
         "100% Yes",
@@ -25,7 +30,9 @@ function response() {
         "Not even if you lived to a thousand",
         "Maybe try being a little more realistic",
         "Computer says no",
+        "Ask me a question",
     ];
+   
 var number = Math.floor(Math.random()*20);
 
 document.getElementById("response").innerHTML = list[number];
