@@ -19,6 +19,13 @@ p {
     font-family: "Rajdhani", sans-serif;
 }
 
+#button {
+    height: 40px;
+    font-size: large;
+    font-family: "Rajdhani", sans-serif;
+    text-transform: capitalize;
+}
+
 #response {
     color: black;
 }
@@ -43,4 +50,27 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    #userinput {
+        width: 70%;
+        height: 30px;
+        font-size: large;
+    }
+
+    #button {
+        height: 30px;
+        font-size: large;
+    }
+
+    .answer-div {
+        width: 350px;
+        height: 350px;
+    }
+
+    #response {
+        font-size: large;
+    }
 }

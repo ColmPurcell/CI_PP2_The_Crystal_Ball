@@ -33,6 +33,7 @@ document.getElementById("userinput").value = "";
 console.log(number);
 }
 
+
 /**
  * Function to switch between
  * light and dark modes
