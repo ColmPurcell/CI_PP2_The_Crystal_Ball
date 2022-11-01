@@ -4,6 +4,7 @@ body {
     text-align: center;
 }
 
+/* style for h1 and p elements **/
 h1 {
     font-size: xxx-large;
 }
@@ -12,6 +13,7 @@ p {
     font-size: xx-large;
 }
 
+/* style for user input section */
 #userinput {
     width: 40%;
     height: 40px;
@@ -19,6 +21,7 @@ p {
     font-family: "Rajdhani", sans-serif;
 }
 
+/* style for submit button */
 #button {
     height: 40px;
     font-size: large;
@@ -26,20 +29,24 @@ p {
     text-transform: capitalize;
 }
 
+/* style for response text color */
 #response {
     color: black;
 }
 
+/* style for when site is in dark mode */
 .dark-mode {
     background-color: black;
     color: white;
 }
 
+/* style for main image */
 .fortune-image {
     width: 50%;
     height: 50%;
 }
 
+/* style for crystal ball div */
 .answer-div {
     margin: auto;
     margin-top: 10px;
@@ -52,10 +59,12 @@ p {
     justify-content: center;
 }
 
+/* style for button to toggle light/dark mode*/
 .mode-toggle {
     font-family: "Rajdhani", sans-serif;
 }
 
+/* media queries for smaller screens */
 @media screen and (max-width: 500px) {
 
     #userinput {
