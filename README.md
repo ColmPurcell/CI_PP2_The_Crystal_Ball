@@ -7,6 +7,29 @@ The target audience is anyone looking for a fun game to predict the future.
 
 The deployed live website can be found [here](https://colmpurcell.github.io/CI_PP2_The_Crystal_Ball/)
 
+## Table of Content
+
+1. [UX](#ux)
+    1. [Site Goal](#site-goal)
+    2. [Existing User Goals](#existing-user-goals)
+    3. [New User Goals](#new-user-goals)
+2. [Design](#design)
+    1. [Color Scheme](#color-scheme)
+    2. [Typography](#typography)
+    3. [Images](#images)
+3. [Features](#features)
+4. [Testing](#testing)
+    1. [Validator Testing](#validator-testing)
+    2. [Lighthouse audit](#lighthouse-audit)
+    3. [Bugs & Fixes](#bugs-and-fixes)
+5. [Technologies Used](#technologies-used)
+    1. [Main Languages Used](#main-languages-used)
+    2. [Libraries, Frameworks and Programmes](#libraries-frameworks-and-programmes)
+6. [Deployment](#deployment)
+7. [Media](#media)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
+
 ## UX
 
 ### Site Goal:
