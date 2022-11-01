@@ -46,6 +46,6 @@ console.log(number);
  * light and dark modes
  */
 function toggleMode() {
-    let element = document.body;
+    var element = document.body;
     element.classList.toggle("dark-mode");
 }
