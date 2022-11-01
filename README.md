@@ -11,7 +11,7 @@ The deployed live website can be found [here](https://colmpurcell.github.io/CI_P
 
 ### Site Goal:
 
-To provide a fun game for people looking to get a prediction on a question submitted with the possibiity of a yes/no answer.
+To provide a fun game for people looking to get a prediction on a question submitted with the possibility of a yes/no answer.
 To provide a clear layout with intuitive user controls and clear user feedback.
 
 ### Existing User Goals:
@@ -26,7 +26,7 @@ To provide a clear layout with intuitive user controls and clear user feedback.
 
 ### Color Scheme
 The color scheme chosen is a simple black and white, with the ability to toggle between dark and light modes for the body and fonts to make the site easily readable.
-A radial gradient containg shades of grey was chosen for the circular answer div to give the impression of a crystal ball with the text appearing in black.
+A radial gradient containing shades of grey was chosen for the circular answer div to give the impression of a crystal ball with the text appearing in black.
 
 ### Typography
 
@@ -89,7 +89,7 @@ The code validation was tested using [W3C validator](https://validator.w3.org/) 
 
 The code validation was tested using [Jigsaw validator](https://jigsaw.w3.org/css-validator/) for css with no issues found.
 
-The code validation was tested using [jshint](https://jshint.com/) for javascript with no issues found.
+The code validation was tested using [jshint](https://jshint.com/) for JavaScript with no issues found.
 
 ### Lighthouse Audit:
 
@@ -97,10 +97,23 @@ The code validation was tested using [jshint](https://jshint.com/) for javascrip
 
 A performance audit was carried out using [web.dev/measure](https://web.dev/measure/) and the site scores high across all areas with scores of 100 for Accessibility, Best Practices and SEO.
 
-The site was tested using Chrome, Safari & Edge browers with no issues.
-The site was tested on a range of devices including iphone 11 and 13, Samsung Galaxy S10 and A70 and Lenovo Smart Tab M10 plus with no issues found.
+The site was tested using Chrome, Safari & Edge browsers with no issues.
+The site was tested on a range of devices including iPhone 11 and 13, Samsung Galaxy S10 and A70 and Lenovo Smart Tab M10 plus with no issues found.
 
 ### Bugs and fixes:
+
+1. Expected: Answer would only be given if question is asked.
+ - Testing: Clicked submit without inputting a question.
+ - Result: Answer was given without a question being submitted.
+ - Fix: Adjusted the function to give an alert for no question prompting the user to enter a question.
+2. Expected: The question field would clear once a question was asked.
+ - Testing: Entered a question and clicked submit.
+ - Result: Question field didn't clear.
+ - Fix: Enter 1 line of code to clear the answer field when the function runs.
+3. Expected: Code validation would pass with no issues found.
+ - Testing: The code validation was tested using [jshint](https://jshint.com/).
+ - Result: One warning was showing for using "let" in my function.
+ - Fix: I replaced let with var which didn't impact my function and allowed validation to pass.
 
 ## Technologies Used
 
@@ -135,6 +148,11 @@ The main image was taken from [pexels.com](https://www.pexels.com/)
 -[A woman fortune telling](https://www.pexels.com/photo/a-woman-fortune-telling-7179426/) by cottonbro
 
 ## Credits
+
+A guide to creating sphere shaped elements was used to create the crystal ball div from [https://cssanimation.rocks/](https://cssanimation.rocks/spheres/)
+
+A guide to creating a toggle button to switch between dark/light mode was used from [https://www.w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp)
+
 
 ## Acknowledgements
 
